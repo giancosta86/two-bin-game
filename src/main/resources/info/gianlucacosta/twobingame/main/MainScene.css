@@ -1,52 +1,26 @@
-/*^
-  ===========================================================================
-  TwoBinGame
-  ===========================================================================
-  Copyright (C) 2016-2017 Gianluca Costa
-  ===========================================================================
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as
-  published by the Free Software Foundation, either version 3 of the
-  License, or (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public
-  License along with this program.  If not, see
-  <http://www.gnu.org/licenses/gpl-3.0.html>.
-  ===========================================================================
-*/
-
 #rootPane {
-    -fx-background-color: linear-gradient(to bottom right, #5069c6, #9016b8);
-    -fx-pref-height: 450px;
+  -fx-background-color: linear-gradient(to bottom right, #5069c6, #9016b8);
+  -fx-pref-height: 450px;
 }
 
 #titleLabel {
-    -fx-text-fill: linear-gradient(to bottom, #fff177, #fff8b9);
-    -fx-font-family: "Arial";
-    -fx-font-size: 56px;
-    -fx-font-weight: bold;
-    -fx-padding: 40px 0 0 0;
+  -fx-text-fill: linear-gradient(to bottom, #fff177, #fff8b9);
+  -fx-font-family: "Arial";
+  -fx-font-size: 56px;
+  -fx-font-weight: bold;
+  -fx-padding: 40px 0 0 0;
 }
-
 
 #buttonsPane {
-    -fx-padding: 20;
+  -fx-padding: 20;
 }
-
 
 #playButton {
-    -fx-pref-width: 400px;
-    -fx-pref-height: 70px;
+  -fx-pref-width: 400px;
+  -fx-pref-height: 70px;
 }
-
 
 .button {
-    -fx-pref-width: 250px;
-    -fx-pref-height: 45px;
+  -fx-pref-width: 250px;
+  -fx-pref-height: 45px;
 }
-

@@ -1,61 +1,34 @@
-/*^
-  ===========================================================================
-  TwoBinGame
-  ===========================================================================
-  Copyright (C) 2016-2017 Gianluca Costa
-  ===========================================================================
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as
-  published by the Free Software Foundation, either version 3 of the
-  License, or (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public
-  License along with this program.  If not, see
-  <http://www.gnu.org/licenses/gpl-3.0.html>.
-  ===========================================================================
-*/
-
 .promptLabel {
-    -fx-font-weight: bold;
+  -fx-font-weight: bold;
 }
 
 .blockGalleryPane {
-    -fx-background-color: white;
+  -fx-background-color: white;
 }
-
 
 .blockGalleryPane {
-    -fx-hgap: 10px;
-    -fx-vgap: 10px;
+  -fx-hgap: 10px;
+  -fx-vgap: 10px;
 }
-
 
 #frameScrollPane .scroll-bar {
-    -fx-border-color: #bababa;
-    -fx-border-width: 1px;
+  -fx-border-color: #bababa;
+  -fx-border-width: 1px;
 }
-
 
 #frameScrollPane .scroll-bar .increment-button,
 #frameScrollPane .scroll-bar .decrement-button {
-    -fx-padding: 7px;
-    -fx-border-color: darkgray;
-    -fx-border-width: 1px;
+  -fx-padding: 7px;
+  -fx-border-color: darkgray;
+  -fx-border-width: 1px;
 }
-
 
 #frameScrollPane .scroll-bar .track {
-    -fx-border-width: 1px;
-    -fx-border-color: darkgray;
+  -fx-border-width: 1px;
+  -fx-border-color: darkgray;
 }
 
-
-#remainingTimeIndicator .percentage{
-    -fx-font-size: 1px;
-    -fx-fill: -fx-text-background-color;
+#remainingTimeIndicator .percentage {
+  -fx-font-size: 1px;
+  -fx-fill: -fx-text-background-color;
 }
